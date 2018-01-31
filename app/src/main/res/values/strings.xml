@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HelloAndroid</string>
+    <string name="websiteAddress">udacity.com/android</string>
+    <string name="aboutTitle">About Us</string>
+    <string name="information">Udacity is where lifelong learners come to learn the skills they need,
+        to land the jobs they want, to build the lives they deserve.</string>
+    <string name="addressTitleTxt">Address:</string>
+    <string name="addressTxt">2465 Latham St. Mountain View, CA 94043</string>
+    <string name="cityStateZipTxt"></string>
+    <string name="phoneTxt">Phone Number: 650-555-5555</string>
+</resources>

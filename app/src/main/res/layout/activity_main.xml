@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context="com.example.jadov.helloandroid.MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:adjustViewBounds="true"
+        android:paddingBottom="@dimen/logoPaddingBtm"
+        android:src="@drawable/udacity_nolink" />
+
+    <TextView
+        android:id="@+id/website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/websiteMargin"
+        android:autoLink="web"
+        android:gravity="center"
+        android:padding="@dimen/websitePadding"
+        android:text="@string/websiteAddress"
+        android:textColor="@color/websiteTxtColor" />
+
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif"
+        android:paddingBottom="@dimen/txtViewBtmPadding"
+        android:paddingLeft="@dimen/txtViewLftPadding"
+        android:paddingRight="@dimen/txtViewRtPadding"
+        android:paddingTop="@dimen/txtViewTopPadding"
+        android:text="@string/aboutTitle"
+        android:textSize="@dimen/largeTxtSize" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/about"
+        android:fontFamily="sans-serif"
+        android:paddingBottom="@dimen/txtViewBtmPadding"
+        android:paddingLeft="@dimen/txtViewLftPadding"
+        android:paddingRight="@dimen/txtViewRtPadding"
+        android:paddingTop="@dimen/txtViewTopPadding"
+        android:text="@string/information"
+        android:textAlignment="center"
+        android:textSize="@dimen/mediumTxtSize" />
+
+    <TextView
+        android:id="@+id/addressTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/info"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif"
+        android:paddingBottom="@dimen/txtViewBtmPadding"
+        android:paddingLeft="@dimen/txtViewLftPadding"
+        android:paddingRight="@dimen/txtViewRtPadding"
+        android:paddingTop="@dimen/txtViewTopPadding"
+        android:text="@string/addressTitleTxt"
+        android:textAlignment="center"
+        android:textSize="@dimen/smallTxtSize" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addressTitle"
+        android:layout_centerHorizontal="true"
+        android:autoLink="map"
+        android:fontFamily="sans-serif"
+        android:paddingBottom="@dimen/txtViewBtmPadding"
+        android:paddingLeft="@dimen/txtViewLftPadding"
+        android:paddingRight="@dimen/txtViewRtPadding"
+        android:paddingTop="@dimen/txtViewTopPadding"
+        android:textAlignment="center"
+        android:textSize="@dimen/smallTxtSize" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/address"
+        android:layout_centerHorizontal="true"
+        android:autoLink="phone"
+        android:fontFamily="sans-serif"
+        android:paddingBottom="@dimen/txtViewBtmPadding"
+        android:paddingLeft="@dimen/txtViewLftPadding"
+        android:paddingRight="@dimen/txtViewRtPadding"
+        android:paddingTop="@dimen/txtViewTopPadding"
+        android:text="@string/phoneTxt"
+        android:textAlignment="center"
+        android:textSize="@dimen/smallTxtSize" />
+
+    <ImageView
+        android:id="@+id/border"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/borderHeight"
+        android:layout_alignParentBottom="true"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/class_central_bg_udacity" />
+
+</RelativeLayout>

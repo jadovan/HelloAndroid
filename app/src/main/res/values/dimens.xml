@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="logoPaddingBtm">5dp</dimen>
+    <dimen name="websitePadding">68dp</dimen>
+    <dimen name="websiteMargin">1dp</dimen>
+    <dimen name="txtViewTopPadding">8dp</dimen>
+    <dimen name="txtViewBtmPadding">8dp</dimen>
+    <dimen name="txtViewLftPadding">16dp</dimen>
+    <dimen name="txtViewRtPadding">16dp</dimen>
+    <dimen name="smallTxtSize">18sp</dimen>
+    <dimen name="mediumTxtSize">19sp</dimen>
+    <dimen name="largeTxtSize">20sp</dimen>
+    <dimen name="borderHeight">100dp</dimen>
+</resources>
